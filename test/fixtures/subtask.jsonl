@@ -1,0 +1,3 @@
+{"type":"step_start","sessionID":"opencode-subtask-session"}
+{"type":"message.part.updated","sessionID":"opencode-subtask-session","messageID":"message-parent","part":{"type":"subtask","id":"subtask-1","sessionID":"child-session","agent":"reviewer","status":"running"}}
+{"type":"message.part.updated","sessionID":"opencode-subtask-session","messageID":"message-parent","part":{"type":"subtask","id":"subtask-1","sessionID":"child-session","agent":"reviewer","status":"completed"}}

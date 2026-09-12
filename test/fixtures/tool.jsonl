@@ -1,0 +1,4 @@
+{"type":"step_start","sessionID":"opencode-tool-session"}
+{"type":"tool_use","sessionID":"opencode-tool-session","part":{"type":"tool","callID":"call-1","name":"bash","input":{"command":"ls"},"state":{"status":"running"}}}
+{"type":"tool_use","sessionID":"opencode-tool-session","part":{"type":"tool","callID":"call-1","name":"bash","state":{"status":"completed","output":"DONE"},"output":"DONE"}}
+{"type":"text","sessionID":"opencode-tool-session","messageID":"message-tool","part":{"type":"text","text":"DONE"}}

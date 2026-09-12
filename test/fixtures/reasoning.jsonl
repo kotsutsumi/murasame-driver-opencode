@@ -1,0 +1,3 @@
+{"type":"step_start","sessionID":"opencode-reasoning-session"}
+{"type":"reasoning","sessionID":"opencode-reasoning-session","messageID":"message-reasoning","part":{"type":"reasoning","text":"public reasoning"}}
+{"type":"text","sessionID":"opencode-reasoning-session","messageID":"message-reasoning","part":{"type":"text","text":"answer"}}
