@@ -62,8 +62,8 @@ stdout is the only semantic input. The driver never calls `JSON.parse` on it;
 `@murasame/adapter-opencode` owns run-json parsing. stderr is diagnostic text,
 kept as a bounded tail and never sent to the adapter or merged with stdout.
 
-After process exit and stdout EOF, the driver calls `adapter.flush()`, then
-`adapter.finish()`, ingests both results into the runtime, and only then
+After process exit and stdout/stderr EOF, the driver calls `adapter.flush()`,
+then `adapter.finish()`, ingests both results into the runtime, and only then
 resolves `run.result`. Process failures resolve a failed or cancelled result;
 configuration errors throw synchronously from `run()`.
 
