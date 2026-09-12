@@ -1,13 +1,13 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 0,
+  "configVersion": 1,
   "workspaces": {
     "": {
       "name": "@murasame/driver-opencode",
       "dependencies": {
-        "@murasame/adapter-opencode": "git+ssh://git@github.com/kotsutsumi/murasame-adapter-opencode.git#v0.1.0-rc.1",
-        "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.1",
-        "@murasame/runtime": "git+ssh://git@github.com/kotsutsumi/murasame-runtime.git#v0.1.0-rc.1",
+        "@murasame/adapter-opencode": "git+ssh://git@github.com/kotsutsumi/murasame-adapter-opencode.git#v0.1.0-rc.2",
+        "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.2",
+        "@murasame/runtime": "git+ssh://git@github.com/kotsutsumi/murasame-runtime.git#v0.1.0-rc.2",
       },
       "devDependencies": {
         "@biomejs/biome": "^2.5.13",
@@ -17,9 +17,9 @@
     },
   },
   "packages": {
-    "@biomejs/biome": ["@biomejs/biome@2.5.13", "", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "2.5.13", "@biomejs/cli-darwin-x64": "2.5.13", "@biomejs/cli-linux-arm64": "2.5.13", "@biomejs/cli-linux-arm64-musl": "2.5.13", "@biomejs/cli-linux-x64": "2.5.13", "@biomejs/cli-linux-x64-musl": "2.5.13", "@biomejs/cli-win32-arm64": "2.5.13", "@biomejs/cli-win32-x64": "2.5.13" }, "bin": { "biome": "bin/biome" } }, ""],
+    "@biomejs/biome": ["@biomejs/biome@2.5.13", "", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "2.5.13", "@biomejs/cli-darwin-x64": "2.5.13", "@biomejs/cli-linux-arm64": "2.5.13", "@biomejs/cli-linux-arm64-musl": "2.5.13", "@biomejs/cli-linux-x64": "2.5.13", "@biomejs/cli-linux-x64-musl": "2.5.13", "@biomejs/cli-win32-arm64": "2.5.13", "@biomejs/cli-win32-x64": "2.5.13" }, "bin": { "biome": "bin/biome" } }, "sha512-+SEC/mFk1a+5mvUANZgbZTaiZXs1nj4iMhL/PHiqDT5TPUEPFIlliEtkKKZB4N862yylHC3UI+/Sj2I0HJEqhA=="],
 
-    "@biomejs/cli-darwin-arm64": ["@biomejs/cli-darwin-arm64@2.5.13", "", { "os": "darwin", "cpu": "arm64" }, ""],
+    "@biomejs/cli-darwin-arm64": ["@biomejs/cli-darwin-arm64@2.5.13", "", { "os": "darwin", "cpu": "arm64" }, "sha512-nYSuDJ6zgVqZUkAkJkvhXxsF2PYIrUk/g638K4voCXz7foI9f7b6C2/7+oAihsHQlivZNMUrm/y8ywlcHQtZOw=="],
 
     "@biomejs/cli-darwin-x64": ["@biomejs/cli-darwin-x64@2.5.13", "", { "os": "darwin", "cpu": "x64" }, "sha512-KVy1ceEDuJ3AzFxjT9kkxbVy+UANw1pjEMUS6lvKfxjJ+fmkRvc7sQn1Xo6ETgseEI7wUQoV03KSga3XfE8YRQ=="],
 
@@ -35,24 +35,24 @@
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.5.13", "", { "os": "win32", "cpu": "x64" }, "sha512-VOofU/nW761XWzUeUNE8zzYNyPrxuMuNFMizL0qz7J75yeV8N7WFheUlk1/K6dOkaFpH9wJ+lDKlwjAbw0346w=="],
 
-    "@murasame/adapter-opencode": ["@murasame/adapter-opencode@git+ssh://git@github.com/kotsutsumi/murasame-adapter-opencode.git#2b09a89949a10fdc44da8e805d61815455c57f1d", { "dependencies": { "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.1", "zod": "^4.6.1" } }, "2b09a89949a10fdc44da8e805d61815455c57f1d"],
+    "@murasame/adapter-opencode": ["@murasame/adapter-opencode@git+ssh://git@github.com/kotsutsumi/murasame-adapter-opencode.git#49918175547d5bf8f3ee096f02888295cce7f52f", { "dependencies": { "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.2", "zod": "^4.6.1" } }, "49918175547d5bf8f3ee096f02888295cce7f52f"],
 
-    "@murasame/animation": ["@murasame/animation@git+ssh://git@github.com/kotsutsumi/murasame-animation.git#df6f83df549dab7be2ca2956351d9e5933a4b787", {}, "df6f83df549dab7be2ca2956351d9e5933a4b787"],
+    "@murasame/animation": ["@murasame/animation@git+ssh://git@github.com/kotsutsumi/murasame-animation.git#b1c4298ea990f001ddd91cb4e377066d78debd50", {}, "b1c4298ea990f001ddd91cb4e377066d78debd50"],
 
-    "@murasame/flow": ["@murasame/flow@git+ssh://git@github.com/kotsutsumi/murasame-flow.git#086188e9355bf5d5475e9673141a40caf5e79629", { "dependencies": { "@murasame/animation": "git+ssh://git@github.com/kotsutsumi/murasame-animation.git#v0.1.0-rc.1" } }, "086188e9355bf5d5475e9673141a40caf5e79629"],
+    "@murasame/flow": ["@murasame/flow@git+ssh://git@github.com/kotsutsumi/murasame-flow.git#3af074942b5b041e406b70bdb0885516188f1db8", { "dependencies": { "@murasame/animation": "git+ssh://git@github.com/kotsutsumi/murasame-animation.git#v0.1.0-rc.2" } }, "3af074942b5b041e406b70bdb0885516188f1db8"],
 
-    "@murasame/protocol": ["@murasame/protocol@git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#e652c80373aecd9b0296cf12660e5da5305e28b3", { "dependencies": { "zod": "^4.6.1" } }, "e652c80373aecd9b0296cf12660e5da5305e28b3"],
+    "@murasame/protocol": ["@murasame/protocol@git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#1828eed6f7cd3ecb977ee89aca58018f42d88914", { "dependencies": { "zod": "^4.6.1" } }, "1828eed6f7cd3ecb977ee89aca58018f42d88914"],
 
-    "@murasame/runtime": ["@murasame/runtime@git+ssh://git@github.com/kotsutsumi/murasame-runtime.git#258561717b4955dfedf3e34d35e608a96a00600f", { "dependencies": { "@murasame/flow": "git+ssh://git@github.com/kotsutsumi/murasame-flow.git#v0.1.0-rc.1", "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.1" } }, "258561717b4955dfedf3e34d35e608a96a00600f"],
+    "@murasame/runtime": ["@murasame/runtime@git+ssh://git@github.com/kotsutsumi/murasame-runtime.git#c39af7e464b50c0ab1c030a1607e0460ab9b0c9e", { "dependencies": { "@murasame/flow": "git+ssh://git@github.com/kotsutsumi/murasame-flow.git#v0.1.0-rc.2", "@murasame/protocol": "git+ssh://git@github.com/kotsutsumi/murasame-protocol.git#v0.1.0-rc.2" } }, "c39af7e464b50c0ab1c030a1607e0460ab9b0c9e"],
 
-    "@types/node": ["@types/node@22.20.2", "", { "dependencies": { "undici-types": "~6.21.0" } }, ""],
+    "@types/node": ["@types/node@22.20.2", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-xlvWf4Vs9n1PEVYwP1n4vvG07M6y8WgvJ2t0vbrWTmijsIHp1cS+uJ2kMIRdY3nHZK0nCYKrPeD171+SzF4/zw=="],
 
-    "bun-types": ["bun-types@1.4.2", "", { "dependencies": { "@types/node": "*" } }, ""],
+    "bun-types": ["bun-types@1.4.2", "", { "dependencies": { "@types/node": "*" } }, "sha512-bxV1FgK7yBIzjRe5zBozIM4Bem11ZJcCXSrjWRG3YWLt8yFDePu4cLjpebO8OvPeIE9trbyPF4fuj3Cia4Fj3w=="],
 
-    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, ""],
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
-    "undici-types": ["undici-types@6.21.0", "", {}, ""],
+    "undici-types": ["undici-types@6.21.0", "", {}, "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="],
 
-    "zod": ["zod@4.6.2", "", {}, ""],
+    "zod": ["zod@4.6.2", "", {}, "sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ=="],
   }
 }
